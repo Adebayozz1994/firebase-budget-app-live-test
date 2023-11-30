@@ -86,7 +86,7 @@ if (budgetArray && budgetArray.length > 0) {
                       totalSpent = 0; 
                       resultCard.innerHTML = ""; 
                       displayAll(); 
-                      resultCard.innerHTML += `<p class="totalspent">TOTAL-SPENT: $${totalSpent.toFixed(2)}</p>`;
+                      resultCard.innerHTML += `<p class="totalspent">TOTAL-SPENT: #${totalSpent.toFixed(2)}</p>`;
                     }
                     
                     function editAny(i){
@@ -98,7 +98,7 @@ if (budgetArray && budgetArray.length > 0) {
                       totalSpent = 0; // Reset totalSpent
                       resultCard.innerHTML = ""; // Clear the card display
                       displayAll()
-                      resultCard.innerHTML += `<p class="totalspent">TOTAL-SPENT: $${totalSpent.toFixed(2)}</p>`;
+                      resultCard.innerHTML += `<p class="totalspent">TOTAL-SPENT: #${totalSpent.toFixed(2)}</p>`;
                 
                     }
                     function goBack(){
