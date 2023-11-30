@@ -151,7 +151,7 @@ body{
 @media(max-width:475px){
   .input {
     margin-left: -1px;
-    width: 120px;
+    width: 320px;
     height: 45px;
     border: none;
     outline: none;
@@ -178,5 +178,15 @@ body{
     margin-top: px;
     margin-left: 135px;
     position: absolute;
+  }
+  .container1 {
+    margin-top: 50px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr;
+    flex: none;
+    gap: 15px;
+    position: relative;
+    color: white;
   }
 }
