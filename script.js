@@ -41,7 +41,7 @@ if (budgetArray && budgetArray.length > 0) {
         Budget Name: ${item.pName}
         </p>
         <p>
-          Quantity: #${item.quant} 
+          Quantity: ${item.quant} 
         </p>
         <p>
           Price: #${item.prices}
