@@ -38,7 +38,7 @@ if (budgetArray && budgetArray.length > 0) {
         
         <div class="card1">
         <p class="heading">
-        Budget Name: #${item.pName}
+        Budget Name: ${item.pName}
         </p>
         <p>
           Quantity: #${item.quant} 
